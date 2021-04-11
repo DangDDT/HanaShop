@@ -1,0 +1,151 @@
+.navbar-brand{
+    font-weight: bold;
+    font-family: 'Yellowtail' ;
+    color: black;
+    letter-spacing: 5px;
+    border: 1px solid cadetblue;
+    border-radius: 20%;
+    padding: 2%;
+    background-color: cadetblue;
+    box-shadow: 5px 5px 20px 5px black;
+}
+.navbar-brand .fa{
+    margin-right: 5%;
+}
+.navbar-contact{
+    margin-left: 25%;
+    margin-top: 1%;
+    font-weight: bold;
+}
+.navbar-contact li{
+    display: inline;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.contact-item .fa{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 100%;
+}
+.navbar-nav{
+    font-weight: bold;
+    font-family: 'Big Shoulders Stencil Text' ;
+    color: black;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-item a:hover{
+    border-bottom: 2px solid rgb(190, 9, 190);
+    padding: 5px;
+    transition: all 280ms ease-in-out;
+    letter-spacing: 3px;
+}
+.user{
+    margin-left: 20px; 
+    margin-top: 10px; 
+    font-size: 14px;
+    font-family: fantasy;
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 10px;
+
+}
+.user .fa{
+    margin-right: 5px;
+    font-size: 200%;
+
+}
+.fa-sign-out{
+    font-size: 200%;
+}
+.logout{
+    margin-left: 10px;
+}
+.logout-button{
+    margin-left: 5px;
+    background: transparent;
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 5px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.logout-button:hover{
+    color:gray;
+    transition: all 100ms ease-in-out;
+    border-color: gray;
+}
+.banner-store .carousel-inner img{
+    border-radius: 10%;
+}
+.body-container {
+    margin-top: 2%;
+}
+
+.body-container .tool-taskbar {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.body-container .container .row {
+    margin-bottom: 6%;
+}
+
+.body-container .row .col-11 {
+    border: 2px solid gray;
+    margin-left: 4%;
+    background-color: rgba(255, 255, 0, 0.178);
+    border-radius: 5%;
+}
+
+.body-container .container .row .col-sm .product-item {
+    margin: 2%;
+    border-top: 2px solid darksalmon;
+    border-left: 2px solid darksalmon;
+    border-right: 2px solid darksalmon;
+    border-radius: 20%;
+    padding-top: 3%;
+    box-shadow: 5px 5px 10px 10px darksalmon;
+}
+
+.body-container .container .row .col-sm img {
+    max-width: 90%;
+    max-height: 50%;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    border: 3px solid orange;
+    box-shadow: 1px 5px 20px 5px orange;
+}
+
+.body-container .container .row .col-sm .product-item {
+    text-align: center;
+    font-family: 'Big Shoulders Stencil Text';
+    font-size: 160%;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 200px;
+    margin: 0px auto;
+    min-height: 280px;
+}
+
+.body-container .container .row .col-sm h5 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.dropdown .btn-secondary {
+    margin-top: 5%;
+}
+
+.body-container .tool-taskbar .row .col-3:last-child .dropdown {
+    margin-left: 10px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Big+Shoulders+Stencil+Text:100,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Yellowtail:regular);
